@@ -22,10 +22,10 @@ class PenguinModAPI {
          * This is the API url used for all requests.
          * Most endpoints will append a version like /v1 before the endpoint.
          *
-         * Default is "https://projects.penguinmod.com/api"
+         * Default is "https://api.patternyard.dev/api"
          * @type {string}
          */
-        this.apiUrl = options.apiUrl || "https://projects.penguinmod.com/api";
+        this.apiUrl = options.apiUrl || "https://api.patternyard.dev/api";
 
         /**
          * This is the max upload size for a non-donator.
@@ -63,7 +63,7 @@ class PenguinModAPI {
      * The new `apiUrl` to use.
      * Most endpoints will append a version like /v1 before the endpoint.
      *
-     * By default, ApiModule will use "https://projects.penguinmod.com/api"
+     * By default, ApiModule will use "https://api.patternyard.dev/api"
      * @param {string} apiUrl The new base URL to use.
      */
     setApiUrl(apiUrl) {
